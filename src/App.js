@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import Parent from "./components/useCallback/Parent";
+import Index from "./components/Demo lifecycle/Index";
+// import { createContext } from "react";
+// import UseRef from "./components/Demo lifecycle/UseRef";
+// import L1 from "./components/Demo lifecycle/L1";
+// import Header from "./components/Scrimba/Header";
+// import Parent from "./components/useCallback/Parent";
 // import CounterOne from "./components/UseReducer/CounterOne";
 // import A from "./components/Usecontexxt/A";
 // import Datafetch from "./components/fetch data/Datafetch";
@@ -22,11 +27,17 @@ import Parent from "./components/useCallback/Parent";
 // import Usestate from './components/Hooks/Usestate';
 
 // export const MyContext = React.createContext();
-
+// const UserContext=createContext();
 class App extends Component {
   render() {
     return (
       <div>
+        <Index></Index>
+        {/* <Header></Header> */}
+        {/* <UserContext.Provider value="nandan">
+              <UseRef></UseRef>
+        </UserContext.Provider> */}
+        {/* <L1 name="nandan"></L1> */}
         {/* <Greet name="nandan"></Greet>
         <Greet name="amith"></Greet>
         <Eventhandle></Eventhandle> */}
@@ -53,7 +64,7 @@ class App extends Component {
         <A></A>
         </MyContext.Provider> */}
        {/* <CounterOne></CounterOne> */}
-       <Parent></Parent>
+       {/* <Parent></Parent> */}
       
       </div>
     );
